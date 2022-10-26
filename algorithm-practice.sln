@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{E059639D-27C4-4F85-9BEE-C3A637C8C510}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backjoon", "backjoon", "{BCBD712D-C2B4-4E6F-AED2-0740BBAD8770}"
+	ProjectSection(SolutionItems) = preProject
+		12865_평범한 배낭.py = 12865_평범한 배낭.py
+		14499_주사위 굴리기.py = 14499_주사위 굴리기.py
+		1781_컵라면.py = 1781_컵라면.py
+		2109_순회강연.py = 2109_순회강연.py
+		2174_로봇 시뮬레이션.py = 2174_로봇 시뮬레이션.py
+		2250_트리의 높이와 너비.py = 2250_트리의 높이와 너비.py
+		2643_색종이 올려 놓기.py = 2643_색종이 올려 놓기.py
+		3055_탈출.py = 3055_탈출.py
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BCBD712D-C2B4-4E6F-AED2-0740BBAD8770} = {E059639D-27C4-4F85-9BEE-C3A637C8C510}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A71EACA5-56EB-4C1E-BCDA-09760B417838}
